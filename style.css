@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+    background-color: cadetblue    
+}
+.menu{
+    top:0px;
+    right:5px;
+    z-index: 10;
+    cursor:pointer;
+    position:fixed;
+    margin-top: 0px;
+    width:100%;
+    background:black;
+}
+.links{
+    color:darkcyan;
+    padding-left:33px;
+    padding-right: 25px;
+    font-family:cursive;
+    font-size:30px;
+    display:inline;
+  font-family: 'Dancing Script', cursive;
+}
+#home{ 
+  background:linear-gradient( #a107de 0%,#ab1597 100%);
+}
+#pic{
+    height:630px;
+    width:660px;
+}
+h1{
+    font-size:40px;
+    background-color: aquamarine;
+    color:brown
+}
+img{
+    width:220px;
+    height:200px
+}
+#grid{
+    background-color: black;
+}
+slideshow-container {
+max-height: 500px;    
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+#mycarousel{
+    background-color:black;
+}
+#mycarousel img{
+    height:350px;
+    margin-top:30px;
+}
+.carousel-inner p{
+color:antiquewhite;
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:20px;
+}
+
